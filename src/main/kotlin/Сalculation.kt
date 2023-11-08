@@ -1,5 +1,6 @@
-fun run(typePaySystem: String, amount: Int, previousAmount: Int): String {
+fun run(typePaySystem: String= "VKPay", previousAmount: Int=0, amount: Int): String {
 
+ //   val typePaySystem
     val limitDay = 150_000
     val limitMonth = 600_000
     val limitVkOne = 15_000
